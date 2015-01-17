@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{03BA7DB0-3BB1-4423-AC91-21B35E268F92}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Autoskola</RootNamespace>
+    <AssemblyName>Autoskola</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.66.0, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=x86" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="0_WelcomeAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0_WelcomeAdmin.Designer.cs">
+      <DependentUpon>0_WelcomeAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="10_Podaci o voznji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="10_Podaci o voznji.Designer.cs">
+      <DependentUpon>10_Podaci o voznji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="11_IzdavanjePotvrde.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="11_IzdavanjePotvrde.Designer.cs">
+      <DependentUpon>11_IzdavanjePotvrde.cs</DependentUpon>
+    </Compile>
+    <Compile Include="12_StariPodaci.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="12_StariPodaci.Designer.cs">
+      <DependentUpon>12_StariPodaci.cs</DependentUpon>
+    </Compile>
+    <Compile Include="13_UnosKategorije.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="13_UnosKategorije.Designer.cs">
+      <DependentUpon>13_UnosKategorije.cs</DependentUpon>
+    </Compile>
+    <Compile Include="14_Ispiti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="14_Ispiti.Designer.cs">
+      <DependentUpon>14_Ispiti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="01_WelcomeInstruktor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="01_WelcomeInstruktor.Designer.cs">
+      <DependentUpon>01_WelcomeInstruktor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="02_UnosPolaznikaZaposlenika.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="02_UnosPolaznikaZaposlenika.Designer.cs">
+      <DependentUpon>02_UnosPolaznikaZaposlenika.cs</DependentUpon>
+    </Compile>
+    <Compile Include="04_Polaznici.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="04_Polaznici.Designer.cs">
+      <DependentUpon>04_Polaznici.cs</DependentUpon>
+    </Compile>
+    <Compile Include="05_UrediPolaznikaZaposlenika.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="05_UrediPolaznikaZaposlenika.Designer.cs">
+      <DependentUpon>05_UrediPolaznikaZaposlenika.cs</DependentUpon>
+    </Compile>
+    <Compile Include="06_KatalogVozila.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="06_KatalogVozila.Designer.cs">
+      <DependentUpon>06_KatalogVozila.cs</DependentUpon>
+    </Compile>
+    <Compile Include="07_DodajVoziloUKatalog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="07_DodajVoziloUKatalog.Designer.cs">
+      <DependentUpon>07_DodajVoziloUKatalog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="08_UpravljanjeAplikacijom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="08_UpravljanjeAplikacijom.Designer.cs">
+      <DependentUpon>08_UpravljanjeAplikacijom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="09_EvidencijaPolaznika.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="09_EvidencijaPolaznika.Designer.cs">
+      <DependentUpon>09_EvidencijaPolaznika.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DB.cs" />
+    <Compile Include="0_GLAVNA FORMA.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="0_GLAVNA FORMA.Designer.cs">
+      <DependentUpon>0_GLAVNA FORMA.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="0_WelcomeAdmin.resx">
+      <DependentUpon>0_WelcomeAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="10_Podaci o voznji.resx">
+      <DependentUpon>10_Podaci o voznji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="11_IzdavanjePotvrde.resx">
+      <DependentUpon>11_IzdavanjePotvrde.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="12_StariPodaci.resx">
+      <DependentUpon>12_StariPodaci.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="13_UnosKategorije.resx">
+      <DependentUpon>13_UnosKategorije.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="14_Ispiti.resx">
+      <DependentUpon>14_Ispiti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="01_WelcomeInstruktor.resx">
+      <DependentUpon>01_WelcomeInstruktor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="02_UnosPolaznikaZaposlenika.resx">
+      <DependentUpon>02_UnosPolaznikaZaposlenika.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="04_Polaznici.resx">
+      <DependentUpon>04_Polaznici.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="05_UrediPolaznikaZaposlenika.resx">
+      <DependentUpon>05_UrediPolaznikaZaposlenika.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="06_KatalogVozila.resx">
+      <DependentUpon>06_KatalogVozila.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="07_DodajVoziloUKatalog.resx">
+      <DependentUpon>07_DodajVoziloUKatalog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="08_UpravljanjeAplikacijom.resx">
+      <DependentUpon>08_UpravljanjeAplikacijom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="09_EvidencijaPolaznika.resx">
+      <DependentUpon>09_EvidencijaPolaznika.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="0_GLAVNA FORMA.resx">
+      <DependentUpon>0_GLAVNA FORMA.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
