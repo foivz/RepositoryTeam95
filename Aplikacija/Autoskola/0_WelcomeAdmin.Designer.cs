@@ -47,7 +47,7 @@
             this.label1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
             this.label1.Location = new System.Drawing.Point(239, 32);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(352, 49);
+            this.label1.Size = new System.Drawing.Size(346, 47);
             this.label1.TabIndex = 0;
             this.label1.Text = "WELCOME ADMIN";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -85,6 +85,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(77, 69);
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox2
             // 
@@ -96,6 +97,7 @@
             this.pictureBox2.Size = new System.Drawing.Size(77, 69);
             this.pictureBox2.TabIndex = 8;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox4
             // 
@@ -108,6 +110,7 @@
             this.pictureBox4.Size = new System.Drawing.Size(50, 45);
             this.pictureBox4.TabIndex = 10;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // _0taForma
             // 
@@ -123,6 +126,7 @@
             this.Controls.Add(this.label1);
             this.Name = "_0taForma";
             this.Text = "_0taForma";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this._0taForma_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();

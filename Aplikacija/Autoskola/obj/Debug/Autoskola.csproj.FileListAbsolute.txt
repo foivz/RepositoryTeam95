@@ -47,13 +47,36 @@ C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._13aForma.re
 C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._14_Ispiti.resources
 C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._1aForma.resources
 C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._2aForma.resources
-C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._4taForma.resources
 C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._5aForma.resources
 C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._6aForma.resources
 C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._7aForma.resources
-C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._8aForma.resources
 C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._9aForma.resources
 C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola.GlavnaForma.resources
 C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola.Properties.Resources.resources
 C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola.csproj.GenerateResource.Cache
 C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._04_Osoba.resources
+C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._04_Osoba.resources
+C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\bin\Debug\Autoskola.exe.config
+C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola.exe
+C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola.pdb
+C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\bin\Debug\Autoskola.exe
+C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\bin\Debug\Autoskola.pdb
+C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\bin\Debug\System.Data.SQLite.dll
+C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\bin\Debug\System.Data.SQLite.xml
+C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola.csprojResolveAssemblyReference.cache
+C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola._04_Osoba.resources
+C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola._0taForma.resources
+C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola._10aForma.resources
+C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola._11aForma.resources
+C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola._12aForma.resources
+C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola._13aForma.resources
+C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola._14_Ispiti.resources
+C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola._1aForma.resources
+C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola._2aForma.resources
+C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola._5aForma.resources
+C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola._6aForma.resources
+C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola._7aForma.resources
+C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola._9aForma.resources
+C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola.GlavnaForma.resources
+C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola.Properties.Resources.resources
+C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola.csproj.GenerateResource.Cache

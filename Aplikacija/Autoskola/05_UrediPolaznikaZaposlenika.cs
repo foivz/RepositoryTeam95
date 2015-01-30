@@ -15,6 +15,41 @@ namespace Autoskola
         public _5aForma()
         {
             InitializeComponent();
+
+            cbRoleID.Items.Clear();
+            cbRoleID.Items.Add("Admin");
+            cbRoleID.Items.Add("Instruktor");
+            cbRoleID.Items.Add("Polaznik");
+        }
+
+        //Gumb za pohranu
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        //Gumb odustani
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            _04_Osoba forma = new _04_Osoba();
+            this.Hide();
+            forma.Show();
+        }
+
+        //Unos ispita za polaznika---dodati upit za OIB
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            _14_Ispiti forma = new _14_Ispiti();
+            this.Hide();
+            forma.Show();
+        }
+
+        
+
+        //Za gašenje aplikacije ako se klikne baš X gumbić na prozoru
+        private void _5aForma_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

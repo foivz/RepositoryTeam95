@@ -84,6 +84,7 @@
             this.pictureBox1.Size = new System.Drawing.Size(77, 69);
             this.pictureBox1.TabIndex = 8;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // pictureBox2
             // 
@@ -95,6 +96,7 @@
             this.pictureBox2.Size = new System.Drawing.Size(77, 69);
             this.pictureBox2.TabIndex = 9;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox4
             // 
@@ -107,6 +109,7 @@
             this.pictureBox4.Size = new System.Drawing.Size(50, 45);
             this.pictureBox4.TabIndex = 11;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // _1aForma
             // 
@@ -122,6 +125,7 @@
             this.Controls.Add(this.label1);
             this.Name = "_1aForma";
             this.Text = "_1aForma";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this._1aForma_FormClosed);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();

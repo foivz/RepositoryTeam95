@@ -17,6 +17,20 @@ namespace Autoskola
             InitializeComponent();
         }
 
+        //Back button
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            _9aForma forma = new _9aForma();
+            this.Hide();
+            forma.Show();
+        }
+
+        //Za gašenje aplikacije ako se klikne baš X gumbić na prozoru
+        private void _12aForma_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
         
     }
 }

@@ -8,7 +8,7 @@ namespace Autoskola
 {
     class Osoba
     {
-        public string tablica = "osoba";
+        
         public string OIB { get; set; }
         public string ime { get; set; }
         public string prezime { get; set; }

@@ -40,9 +40,8 @@ namespace Autoskola
 
         private DB() 
         {
+            //datoteka s bazom u bin-->Debug direktoriju aplikacije
             ConnectionString = @"Data Source = autoskolaDB.db3"; 
-            //promijniti ako premjestimo bazu, zasad neka tu bude
-
             Connection = new SQLiteConnection(ConnectionString);
             Connection.Open();
 
@@ -54,6 +53,7 @@ namespace Autoskola
             Connection = null;
         }
 
+        
         //metode za dohvat podataka i izvršenje upita
 
         public DbDataReader DohvatiDataReader (string sqlUpit)
@@ -76,7 +76,35 @@ namespace Autoskola
         }
 
 
+        
+        public Osoba prijavljenaOsoba;
+
+        /// <summary>
+        /// Metoda za čuvanje podataka o osobi od logina. 
+        /// </summary>
+        /// <param name="kIme"></param>
+        /// <param name="lozinka"></param>
+        public void prijava(string kIme, string lozinka)
+        {
+            string upit = "SELECT * FROM role WHERE kIme = '" + kIme + "' AND lozinka = '" + lozinka + "';";
+
+            DbDataReader reader = DB.Instance.DohvatiDataReader(upit);
+            reader.Read();
+            string OIB = reader[2].ToString();
+
+            upit = "SELECT * FROM osoba WHERE OIB = '" + OIB + "';";
+            reader = DB.Instance.DohvatiDataReader(upit);
+            reader.Read();
+
+            prijavljenaOsoba = new Osoba();
+            prijavljenaOsoba.OIB = OIB;
+            prijavljenaOsoba.ime = reader[1].ToString();
+            prijavljenaOsoba.prezime = reader[2].ToString();
+            prijavljenaOsoba.adresa = reader[3].ToString();
+            prijavljenaOsoba.brTel = reader[4].ToString();
 
 
+
+        }
     }
 }

@@ -21,11 +21,11 @@ namespace Autoskola
         }
 
 
+        //Gumb za prijavu u aplikaciju
         private void button1_Click(object sender, EventArgs e)
         {
-
-
-            if (textBox1.Text != "" & textBox2.Text != "")
+            
+           if (textBox1.Text != "" & textBox2.Text != "")
             {
 
                 string queryText = "SELECT roleID, kIme, lozinka FROM role WHERE kIme = '" + textBox1.Text + "' AND lozinka = '" + textBox2.Text + "';";
@@ -38,15 +38,23 @@ namespace Autoskola
                    
                     long varijabla = (long)reader[0];
 
-                    MessageBox.Show("Uspješna prijava!");
+                    //MessageBox.Show("Uspješna prijava!"); 
+                    //1 = admin sučenje
                     if (varijabla == 1)
                     {
+                        DB.Instance.prijava(textBox1.Text, textBox2.Text);
+
                         _0taForma forma = new _0taForma();
+                        this.Hide();
                         forma.Show();
                     }
+                    //2= instruktor sučelje
                     else if (varijabla == 2)
                     {
+                        DB.Instance.prijava(textBox1.Text, textBox2.Text);
+
                         _1aForma forma = new _1aForma();
+                        this.Hide();
                         forma.Show();
                     }
                     else
@@ -67,13 +75,30 @@ namespace Autoskola
             }
             textBox1.Clear();
             textBox2.Clear();
-
+           
+           
         }
         
-
+        //Gumb za izlaz iz aplikacije
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
+
+        
+        //da se prijava može i s enter tipkom izvršiti
+        private void textBox2_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode== Keys.Enter)
+            {
+                button1_Click(null, null);
+            }
+        }
+
+        
+
+        
+
+        
     }
 }
