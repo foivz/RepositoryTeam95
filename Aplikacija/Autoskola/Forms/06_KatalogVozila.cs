@@ -51,7 +51,6 @@ namespace Autoskola
         {
             _13frmUnosKat forma = new _13frmUnosKat();
             this.Hide();
-            //poziv metode
             forma.Show();
            
         }

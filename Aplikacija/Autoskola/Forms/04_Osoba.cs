@@ -29,7 +29,7 @@ namespace Autoskola
             this.Hide();
             forma.Show();
         }
-        public string oib;
+        public static string oib;
         //Gumb za ažuriranje podataka o osobi (popunjavanje sljedeće forme podacima iz tablica)
         private void pictureBox2_Click(object sender, EventArgs e)
         {
@@ -58,12 +58,29 @@ namespace Autoskola
 
             string upit = "SELECT * FROM kategorija;";
             DbDataReader dr = DB.Instance.DohvatiDataReader(upit);
+
             while (dr.Read())
             {
 
                 forma.cbKategorijaID.Items.Add(dr[0].ToString());
             }
+
+            string upit1 = "SELECT * from ugovor WHERE OIBP = '" + oib + "';";
+            DbDataReader dr1 = DB.Instance.DohvatiDataReader(upit1);
+
+            string staraKategorija = "";
+            string instruktor = "";
+
+            while (dr1.Read()) 
+            {
+                staraKategorija = dr1[4].ToString();
+                instruktor = dr1[3].ToString();
+            }
+
             
+
+            forma.staraKategorija = staraKategorija;
+            forma.instruktor = instruktor;
             
             forma.Show();
         }
@@ -109,6 +126,8 @@ namespace Autoskola
             }
         }
 
+        
+
         /// <summary>
         /// Metoda za popunjavanje dataGrida s podacima iz dviju tablica 
         /// </summary>
@@ -139,6 +158,8 @@ namespace Autoskola
         {
             Application.Exit();
         }
+
+
 
        
     }

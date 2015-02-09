@@ -169,6 +169,7 @@
             this.dgwOsobe.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgwOsobe.Size = new System.Drawing.Size(343, 285);
             this.dgwOsobe.TabIndex = 15;
+            
             // 
             // OIB
             // 

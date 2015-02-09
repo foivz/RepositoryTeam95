@@ -22,31 +22,60 @@ namespace Autoskola
             cbRoleID.Items.Add("Admin");
             cbRoleID.Items.Add("Instruktor");
             cbRoleID.Items.Add("Polaznik");
+            
         }
 
+        private void _05frmUrediPZ_Load(object sender, EventArgs e)
+        {
+            cbKategorijaID.SelectedText = staraKategorija;
+            cbKategorijaID.SelectedIndex = cbKategorijaID.FindString(staraKategorija);
+        }
+
+
+        public string staraKategorija;
+        public string instruktor;
         //Gumb za pohranu
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            
-            _04frmOsobe forma = new _04frmOsobe();
 
-            string oib2 = forma.oib; 
+            string novaKategorija = cbKategorijaID.Items[cbKategorijaID.SelectedIndex].ToString();
 
-            
+            string OIB = _04frmOsobe.oib; 
+
             Osoba osoba = new Osoba();
             osoba.ime = txtIme.Text;
             osoba.prezime = txtPrezime.Text;
             osoba.adresa = txtAdresa.Text;
             osoba.brTel = txtTel.Text;
-            osoba.AzurirajUnos(oib2);
+            osoba.AzurirajUnos(OIB);
 
             Role rola = new Role();
-            rola.PohraniAzuriranjeRole(oib2);
+            rola.kIme = txtKIme.Text;
+            rola.lozinka = txtLozinka.Text;
+            rola.PohraniAzuriranjeRole(OIB);
 
             Ugovor ugovor = new Ugovor();
-            ugovor.AzurirajUgovor(oib2);
+            ugovor.OIBP = OIB;
+            ugovor.Instruktor = instruktor;
+            ugovor.kategorijaID = novaKategorija;
 
-            if (oib2 != "") MessageBox.Show("Ažuriranje uspješno!");
+            if (novaKategorija == staraKategorija)
+            {
+                ugovor.AzurirajUgovor(OIB);
+                MessageBox.Show("Ažuriranje uspješno!");
+            }
+            else
+            { 
+                ugovor.UnesiUgovor();
+                Ugovor.OtvoriWordUgovor(osoba.ime, osoba.prezime, osoba.adresa, OIB, ugovor.kategorijaID);
+                MessageBox.Show("Kreiran novi ugovor");
+            }
+
+
+
+            
+
+            //Dodati još ako je RoleID ==  3 i promijenjena kategorija, da se generira novi ugovor (s 2. forme metoda)
                             
         }
 
@@ -61,15 +90,11 @@ namespace Autoskola
         //Unos ispita za polaznika + provjera da se samo za polaznike može unijeti
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-            //Htjela bih da još provjerava ako je kliknuto na polaznika da samo onda može bit unos ispita omogućen
-            //_04frmOsobe osoba = new _04frmOsobe();
-            //if (osoba.rbPolaznici.Checked)
-            //{
+            
                 _14frmIspiti forma = new _14frmIspiti();
                 this.Hide();
                 forma.Show();
-            //}
-            //else { }
+            
         }
 
         //Za gašenje aplikacije ako se klikne baš X gumbić na prozoru
@@ -77,5 +102,8 @@ namespace Autoskola
         {
             Application.Exit();
         }
+
+       
+        
     }
 }

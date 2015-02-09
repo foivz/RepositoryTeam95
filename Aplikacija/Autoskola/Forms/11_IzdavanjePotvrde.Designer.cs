@@ -33,6 +33,7 @@
             this.pbIzdajPotvrdu = new System.Windows.Forms.PictureBox();
             this.lblIzdajPotvrdu = new System.Windows.Forms.Label();
             this.dgwIzdavanjePotvrde = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.ime = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.prezime = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.pbBack)).BeginInit();
@@ -93,14 +94,21 @@
             this.dgwIzdavanjePotvrde.AllowUserToDeleteRows = false;
             this.dgwIzdavanjePotvrde.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgwIzdavanjePotvrde.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
             this.ime,
             this.prezime});
-            this.dgwIzdavanjePotvrde.Location = new System.Drawing.Point(168, 136);
+            this.dgwIzdavanjePotvrde.Location = new System.Drawing.Point(105, 136);
             this.dgwIzdavanjePotvrde.Name = "dgwIzdavanjePotvrde";
             this.dgwIzdavanjePotvrde.ReadOnly = true;
             this.dgwIzdavanjePotvrde.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgwIzdavanjePotvrde.Size = new System.Drawing.Size(243, 280);
+            this.dgwIzdavanjePotvrde.Size = new System.Drawing.Size(343, 279);
             this.dgwIzdavanjePotvrde.TabIndex = 13;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "OIB";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
             // 
             // ime
             // 
@@ -144,6 +152,7 @@
         public System.Windows.Forms.PictureBox pbIzdajPotvrdu;
         public System.Windows.Forms.Label lblIzdajPotvrdu;
         public System.Windows.Forms.DataGridView dgwIzdavanjePotvrde;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn ime;
         private System.Windows.Forms.DataGridViewTextBoxColumn prezime;
     }

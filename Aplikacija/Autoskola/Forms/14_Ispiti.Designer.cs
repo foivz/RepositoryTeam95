@@ -50,7 +50,7 @@
             this.lblIspit.AutoSize = true;
             this.lblIspit.BackColor = System.Drawing.Color.Transparent;
             this.lblIspit.Font = new System.Drawing.Font("Bookman Old Style", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.lblIspit.Location = new System.Drawing.Point(23, 48);
+            this.lblIspit.Location = new System.Drawing.Point(45, 48);
             this.lblIspit.Name = "lblIspit";
             this.lblIspit.Size = new System.Drawing.Size(39, 16);
             this.lblIspit.TabIndex = 0;
@@ -72,7 +72,7 @@
             this.lblProlaz.AutoSize = true;
             this.lblProlaz.BackColor = System.Drawing.Color.Transparent;
             this.lblProlaz.Font = new System.Drawing.Font("Bookman Old Style", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.lblProlaz.Location = new System.Drawing.Point(23, 215);
+            this.lblProlaz.Location = new System.Drawing.Point(45, 215);
             this.lblProlaz.Name = "lblProlaz";
             this.lblProlaz.Size = new System.Drawing.Size(51, 16);
             this.lblProlaz.TabIndex = 2;
@@ -83,7 +83,7 @@
             this.dtpDatum.CalendarFont = new System.Drawing.Font("Bookman Old Style", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.dtpDatum.CustomFormat = "";
             this.dtpDatum.Font = new System.Drawing.Font("Bookman Old Style", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.dtpDatum.Location = new System.Drawing.Point(602, 82);
+            this.dtpDatum.Location = new System.Drawing.Point(541, 82);
             this.dtpDatum.Name = "dtpDatum";
             this.dtpDatum.Size = new System.Drawing.Size(200, 20);
             this.dtpDatum.TabIndex = 6;
@@ -128,7 +128,7 @@
             // txtNapomena
             // 
             this.txtNapomena.Font = new System.Drawing.Font("Bookman Old Style", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.txtNapomena.Location = new System.Drawing.Point(597, 215);
+            this.txtNapomena.Location = new System.Drawing.Point(541, 211);
             this.txtNapomena.Name = "txtNapomena";
             this.txtNapomena.Size = new System.Drawing.Size(205, 23);
             this.txtNapomena.TabIndex = 14;
@@ -182,9 +182,9 @@
             // 
             this.cbIspiti.Font = new System.Drawing.Font("Bookman Old Style", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.cbIspiti.FormattingEnabled = true;
-            this.cbIspiti.Location = new System.Drawing.Point(26, 85);
+            this.cbIspiti.Location = new System.Drawing.Point(67, 82);
             this.cbIspiti.Name = "cbIspiti";
-            this.cbIspiti.Size = new System.Drawing.Size(257, 26);
+            this.cbIspiti.Size = new System.Drawing.Size(304, 26);
             this.cbIspiti.TabIndex = 45;
             // 
             // _14frmIspiti

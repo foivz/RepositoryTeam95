@@ -131,7 +131,7 @@
             this.txtLozinka.Location = new System.Drawing.Point(581, 239);
             this.txtLozinka.Name = "txtLozinka";
             this.txtLozinka.Size = new System.Drawing.Size(116, 20);
-            this.txtLozinka.TabIndex = 52;
+            this.txtLozinka.TabIndex = 6;
             // 
             // txtKIme
             // 
@@ -139,7 +139,7 @@
             this.txtKIme.Location = new System.Drawing.Point(581, 198);
             this.txtKIme.Name = "txtKIme";
             this.txtKIme.Size = new System.Drawing.Size(116, 20);
-            this.txtKIme.TabIndex = 51;
+            this.txtKIme.TabIndex = 5;
             // 
             // lblLozinka
             // 
@@ -169,7 +169,7 @@
             this.txtTel.Location = new System.Drawing.Point(238, 283);
             this.txtTel.Name = "txtTel";
             this.txtTel.Size = new System.Drawing.Size(116, 20);
-            this.txtTel.TabIndex = 44;
+            this.txtTel.TabIndex = 4;
             // 
             // txtAdresa
             // 
@@ -177,7 +177,7 @@
             this.txtAdresa.Location = new System.Drawing.Point(238, 241);
             this.txtAdresa.Name = "txtAdresa";
             this.txtAdresa.Size = new System.Drawing.Size(116, 20);
-            this.txtAdresa.TabIndex = 43;
+            this.txtAdresa.TabIndex = 3;
             // 
             // txtPrezime
             // 
@@ -185,7 +185,7 @@
             this.txtPrezime.Location = new System.Drawing.Point(238, 200);
             this.txtPrezime.Name = "txtPrezime";
             this.txtPrezime.Size = new System.Drawing.Size(116, 20);
-            this.txtPrezime.TabIndex = 42;
+            this.txtPrezime.TabIndex = 2;
             // 
             // txtIme
             // 
@@ -193,7 +193,7 @@
             this.txtIme.Location = new System.Drawing.Point(238, 158);
             this.txtIme.Name = "txtIme";
             this.txtIme.Size = new System.Drawing.Size(116, 20);
-            this.txtIme.TabIndex = 41;
+            this.txtIme.TabIndex = 1;
             // 
             // lblBrTel
             // 
@@ -324,6 +324,7 @@
             this.Name = "_05frmUrediPZ";
             this.Text = "NadJos - Uredi";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this._5aForma_FormClosed);
+            this.Load += new System.EventHandler(this._05frmUrediPZ_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pbOdustani)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbPohrani)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbUnosIspita)).EndInit();

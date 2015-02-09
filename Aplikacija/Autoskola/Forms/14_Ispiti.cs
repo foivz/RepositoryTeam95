@@ -21,46 +21,47 @@ namespace Autoskola
             cbIspiti.Items.Add("PPSP - Prometni propisi i sigurnosna pravila");
             cbIspiti.Items.Add("PPP - Pružanje prve pomoći");
             cbIspiti.Items.Add("UV - Upravljanje vozilom");
+            txtNapomena.Clear();
+
         }
 
+        
         //Gumb Pohrani
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Ispiti ispiti = new Ispiti();
-            _04frmOsobe osoba = new _04frmOsobe();
-
-            ispiti.OIBP = osoba.dgwOsobe.SelectedRows[0].Cells[0].Value.ToString();
             
+            Ispiti ispiti = new Ispiti();
+            
+            string OIBP = _04frmOsobe.oib;
+
             ispiti.datum = dtpDatum.Value;
 
-            string upit = "SELECT * FROM ispiti;";
-            DbDataReader dr = DB.Instance.DohvatiDataReader(upit);
-            dr.Read();
-
-            cbIspiti.SelectedIndex = int.Parse(dr[0].ToString());
+            //string upit = "SELECT ispitID FROM ispiti;";
+            //DbDataReader dr = DB.Instance.DohvatiDataReader(upit);
+            //dr.Read();
 
             //uvjeti za upis podataka o pristupljenom ispitu i prolazu
-            if (cbIspiti.SelectedIndex == 1 && rbDA.Checked)
+            if (cbIspiti.SelectedIndex == 0 && rbDA.Checked)
             { 
                 ispiti.ispitID = 1;
                 ispiti.prolaz = true;
             }
-            else if (cbIspiti.SelectedIndex == 1 && rbNE.Checked)
+            else if (cbIspiti.SelectedIndex == 0 && rbNE.Checked)
             {
                 ispiti.ispitID = 1;
                 ispiti.prolaz = false;
             }
-            else if (cbIspiti.SelectedIndex == 2 && rbDA.Checked)
+            else if (cbIspiti.SelectedIndex == 1 && rbDA.Checked)
             {
                 ispiti.ispitID = 2;
                 ispiti.prolaz = true;
             }
-            else if (cbIspiti.SelectedIndex == 2 && rbNE.Checked)
+            else if (cbIspiti.SelectedIndex == 1 && rbNE.Checked)
             {
                 ispiti.ispitID = 2;
                 ispiti.prolaz = false;
             }
-            else if (cbIspiti.SelectedIndex == 3 && rbDA.Checked)
+            else if (cbIspiti.SelectedIndex == 2 && rbDA.Checked)
             {
                 ispiti.ispitID = 3;
                 ispiti.prolaz = true;
@@ -72,15 +73,13 @@ namespace Autoskola
                 ispiti.prolaz = false;
             }
 
-
+            
             ispiti.napomena = txtNapomena.Text;
 
+            ispiti.PohraniPolaganjeIspita(OIBP);
             
-            if (ispiti.PohraniPolaganjeIspita() != 0)
-            {
-                
-                MessageBox.Show("Uspješno dodana evidencija ispita.");
-            }
+            MessageBox.Show("Uspješno dodana evidencija ispita.");
+            
 
         }
 

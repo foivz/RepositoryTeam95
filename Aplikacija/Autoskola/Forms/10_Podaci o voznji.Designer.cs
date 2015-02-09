@@ -42,8 +42,6 @@
             this.pbPohrani = new System.Windows.Forms.PictureBox();
             this.lblDatum = new System.Windows.Forms.Label();
             this.dtpDatum = new System.Windows.Forms.DateTimePicker();
-            this.label1 = new System.Windows.Forms.Label();
-            this.cbVozilo = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.pbOdustani)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbPohrani)).BeginInit();
             this.SuspendLayout();
@@ -117,7 +115,7 @@
             this.lblPodaciOVoznji.Font = new System.Drawing.Font("Bookman Old Style", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.lblPodaciOVoznji.Location = new System.Drawing.Point(230, 29);
             this.lblPodaciOVoznji.Name = "lblPodaciOVoznji";
-            this.lblPodaciOVoznji.Size = new System.Drawing.Size(355, 49);
+            this.lblPodaciOVoznji.Size = new System.Drawing.Size(345, 47);
             this.lblPodaciOVoznji.TabIndex = 9;
             this.lblPodaciOVoznji.Text = "PODACI O VOŽNJI";
             this.lblPodaciOVoznji.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -201,35 +199,12 @@
             this.dtpDatum.Size = new System.Drawing.Size(200, 20);
             this.dtpDatum.TabIndex = 42;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Bookman Old Style", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(218, 290);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 18);
-            this.label1.TabIndex = 43;
-            this.label1.Text = "Vozilo";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // cbVozilo
-            // 
-            this.cbVozilo.Font = new System.Drawing.Font("Bookman Old Style", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.cbVozilo.FormattingEnabled = true;
-            this.cbVozilo.Location = new System.Drawing.Point(441, 286);
-            this.cbVozilo.Name = "cbVozilo";
-            this.cbVozilo.Size = new System.Drawing.Size(121, 26);
-            this.cbVozilo.TabIndex = 44;
-            // 
             // _10frmPodaciOVoznji
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Autoskola.Properties.Resources.background2;
             this.ClientSize = new System.Drawing.Size(814, 492);
-            this.Controls.Add(this.cbVozilo);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.dtpDatum);
             this.Controls.Add(this.lblDatum);
             this.Controls.Add(this.lblOdustani);
@@ -270,7 +245,5 @@
         public System.Windows.Forms.PictureBox pbPohrani;
         public System.Windows.Forms.Label lblDatum;
         public System.Windows.Forms.DateTimePicker dtpDatum;
-        public System.Windows.Forms.Label label1;
-        public System.Windows.Forms.ComboBox cbVozilo;
     }
 }

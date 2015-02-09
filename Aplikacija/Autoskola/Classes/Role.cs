@@ -40,6 +40,11 @@ namespace Autoskola
             return DB.Instance.IzvrsiUpit(upit);
         }
 
+        /// <summary>
+        /// Metoda za pohranu ažuriranja u tablici role
+        /// </summary>
+        /// <param name="oib"></param>
+        /// <returns></returns>
         public int PohraniAzuriranjeRole(string oib)
         {
             string sqlUpit = "UPDATE role SET kIme = '" + kIme + "', lozinka ='" + lozinka + "' WHERE OIB = '" + oib + "'; ";

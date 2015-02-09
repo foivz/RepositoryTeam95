@@ -18,17 +18,22 @@ namespace Autoskola
             InitializeComponent();
         }
 
+        public static string OIBP;
         //Gumb Evidentiraj polaznika
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             _10frmPodaciOVoznji forma = new _10frmPodaciOVoznji();
             this.Hide();
+
+            OIBP = dgwEvidencijaPol.SelectedRows[0].Cells[0].Value.ToString();  
+
             forma.Show();
         }
 
         //Gumb za dohvat starih podataka
         private void pictureBox2_Click(object sender, EventArgs e)
         {
+            OIBP = dgwEvidencijaPol.SelectedRows[0].Cells[0].Value.ToString();  
             _12frmPodaciOPol forma = new _12frmPodaciOPol();
             this.Hide();
             forma.Show();
@@ -48,16 +53,37 @@ namespace Autoskola
             Application.Exit();
         }
 
-        //Popis polaznika u dgw-u za odabir daljnjih podataka o vožnji
+        //Popis polaznika dodijeljenih ugovorm u dgw-u za odabir daljnjih podataka o vožnji
         private void _09frmEvidencijaPol_Load(object sender, EventArgs e)
         {
-            string upit = "SELECT * FROM osoba;";
-            DbDataReader dr = DB.Instance.DohvatiDataReader(upit);
+            string instrOIB = DB.Instance.prijavljenaOsoba.OIB;
+            string instrIme = DB.Instance.prijavljenaOsoba.ime;
+            string instrPrezime = DB.Instance.prijavljenaOsoba.prezime;
+            string instruktor = instrIme + " " + instrPrezime;
 
-            while (dr.Read())
+
+            //upit iz ugovora za oibOsobe
+            string upit1 = "SELECT * FROM ugovor WHERE Instruktor = '" + instruktor + "';";
+            DbDataReader datareader = DB.Instance.DohvatiDataReader(upit1);
+           
+            while (datareader.Read())
             {
-                dgwEvidencijaPol.Rows.Add(dr[0], dr[1], dr[2]);
+                string oibUgovor = datareader[2].ToString();
 
+                string upit = "SELECT * FROM osoba;";
+                DbDataReader dr = DB.Instance.DohvatiDataReader(upit);
+                while (dr.Read())
+                {
+
+                    string oibOsoba = dr[0].ToString();
+
+                    if (oibUgovor == oibOsoba)
+                    {
+
+                        dgwEvidencijaPol.Rows.Add(dr[0], dr[1], dr[2]);
+
+                    }
+                }
             }
                 
         }

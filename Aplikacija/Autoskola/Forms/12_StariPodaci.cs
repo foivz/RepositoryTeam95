@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.Common;
+using System.Data.SQLite;
 
 namespace Autoskola
 {
@@ -30,6 +32,40 @@ namespace Autoskola
         {
             Application.Exit();
         }
+
+        //Upis u dataGridView prilikom loadanja forme
+        private void _12frmPodaciOPol_Load(object sender, EventArgs e)
+        {
+
+            string upitOsoba = "SELECT * FROM osoba WHERE OIB = '" + _09frmEvidencijaPol.OIBP + "';";
+            DbDataReader drOsoba = DB.Instance.DohvatiDataReader(upitOsoba);
+            string oibOsoba = drOsoba[0].ToString();
+
+            string upitUgovor = "SELECT * FROM ugovor;";
+            DbDataReader drUgovor = DB.Instance.DohvatiDataReader(upitUgovor);
+
+            string upitVoznja = "SELECT * FROM evidencija WHERE OIBP = '" + oibOsoba + "';";
+            DbDataReader drVoznja = DB.Instance.DohvatiDataReader(upitVoznja);
+
+            DateTime razlika = new DateTime();
+
+            DateTimeConverter cnv = new DateTimeConverter();
+            
+
+            while (drVoznja.Read()) 
+            {
+                DateTime pocetnoVrijeme = (DateTime)cnv.ConvertFromString(drVoznja[0].ToString());
+                DateTime ZavrsnoVrijeme = (DateTime)cnv.ConvertFromString(drVoznja[1].ToString());
+
+                razlika = razlika.Add(ZavrsnoVrijeme.Subtract(pocetnoVrijeme));
+            }
+
+
+            dgvPodaci.Rows.Add(drOsoba[0].ToString(), drOsoba[1].ToString(), drOsoba[2].ToString(),drUgovor[3].ToString(), razlika.ToString("HH:mm:ss"));
+
+        }
+       
+
 
         
     }

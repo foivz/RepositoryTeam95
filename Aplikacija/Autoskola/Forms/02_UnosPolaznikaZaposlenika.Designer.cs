@@ -108,7 +108,7 @@
             this.txtIme.Location = new System.Drawing.Point(238, 190);
             this.txtIme.Name = "txtIme";
             this.txtIme.Size = new System.Drawing.Size(116, 20);
-            this.txtIme.TabIndex = 6;
+            this.txtIme.TabIndex = 2;
             // 
             // txtPrezime
             // 
@@ -116,7 +116,7 @@
             this.txtPrezime.Location = new System.Drawing.Point(238, 232);
             this.txtPrezime.Name = "txtPrezime";
             this.txtPrezime.Size = new System.Drawing.Size(116, 20);
-            this.txtPrezime.TabIndex = 7;
+            this.txtPrezime.TabIndex = 3;
             // 
             // txtAdresa
             // 
@@ -124,7 +124,7 @@
             this.txtAdresa.Location = new System.Drawing.Point(238, 273);
             this.txtAdresa.Name = "txtAdresa";
             this.txtAdresa.Size = new System.Drawing.Size(116, 20);
-            this.txtAdresa.TabIndex = 8;
+            this.txtAdresa.TabIndex = 4;
             // 
             // txtTel
             // 
@@ -132,7 +132,7 @@
             this.txtTel.Location = new System.Drawing.Point(238, 315);
             this.txtTel.Name = "txtTel";
             this.txtTel.Size = new System.Drawing.Size(116, 20);
-            this.txtTel.TabIndex = 9;
+            this.txtTel.TabIndex = 5;
             // 
             // lblUnosNovihPZ
             // 
@@ -164,7 +164,7 @@
             this.txtOIB.Location = new System.Drawing.Point(238, 149);
             this.txtOIB.Name = "txtOIB";
             this.txtOIB.Size = new System.Drawing.Size(116, 20);
-            this.txtOIB.TabIndex = 12;
+            this.txtOIB.TabIndex = 1;
             // 
             // txtLozinka
             // 
@@ -172,7 +172,7 @@
             this.txtLozinka.Location = new System.Drawing.Point(581, 225);
             this.txtLozinka.Name = "txtLozinka";
             this.txtLozinka.Size = new System.Drawing.Size(116, 20);
-            this.txtLozinka.TabIndex = 27;
+            this.txtLozinka.TabIndex = 7;
             // 
             // txtKIme
             // 
@@ -180,7 +180,7 @@
             this.txtKIme.Location = new System.Drawing.Point(581, 185);
             this.txtKIme.Name = "txtKIme";
             this.txtKIme.Size = new System.Drawing.Size(116, 20);
-            this.txtKIme.TabIndex = 26;
+            this.txtKIme.TabIndex = 6;
             // 
             // lblLozinka
             // 

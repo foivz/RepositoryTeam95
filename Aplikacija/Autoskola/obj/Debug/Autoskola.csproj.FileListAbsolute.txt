@@ -18,65 +18,64 @@ C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\bin\Debug\System.Data.SQLite.xml
 C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola.csprojResolveAssemblyReference.cache
 C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola.Properties.Resources.resources
 C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola.csproj.GenerateResource.Cache
-C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._0taForma.resources
-C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._10aForma.resources
-C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._11aForma.resources
-C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._12aForma.resources
-C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._13aForma.resources
-C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._1aForma.resources
-C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._2aForma.resources
-C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._5aForma.resources
-C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._6aForma.resources
-C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._7aForma.resources
-C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._9aForma.resources
-C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._14_Ispiti.resources
 C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\bin\Debug\Autoskola.exe.config
 C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola.exe
 C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola.pdb
-C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola.GlavnaForma.resources
 C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\bin\Debug\Autoskola.exe
 C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\bin\Debug\Autoskola.pdb
 C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\bin\Debug\System.Data.SQLite.dll
 C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\bin\Debug\System.Data.SQLite.xml
 C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola.csprojResolveAssemblyReference.cache
-C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._0taForma.resources
-C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._10aForma.resources
-C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._11aForma.resources
-C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._12aForma.resources
-C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._13aForma.resources
-C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._14_Ispiti.resources
-C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._1aForma.resources
-C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._2aForma.resources
-C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._5aForma.resources
-C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._6aForma.resources
-C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._7aForma.resources
-C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._9aForma.resources
-C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola.GlavnaForma.resources
 C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola.Properties.Resources.resources
 C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola.csproj.GenerateResource.Cache
-C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._04_Osoba.resources
-C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._04_Osoba.resources
-C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\bin\Debug\Autoskola.exe.config
-C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola.exe
-C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola.pdb
-C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\bin\Debug\Autoskola.exe
-C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\bin\Debug\Autoskola.pdb
-C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\bin\Debug\System.Data.SQLite.dll
-C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\bin\Debug\System.Data.SQLite.xml
-C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola.csprojResolveAssemblyReference.cache
-C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola._04_Osoba.resources
-C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola._0taForma.resources
-C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola._10aForma.resources
-C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola._11aForma.resources
-C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola._12aForma.resources
-C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola._13aForma.resources
-C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola._14_Ispiti.resources
-C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola._1aForma.resources
-C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola._2aForma.resources
-C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola._5aForma.resources
-C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola._6aForma.resources
-C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola._7aForma.resources
-C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola._9aForma.resources
-C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola.GlavnaForma.resources
-C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola.Properties.Resources.resources
-C:\Users\Josipa\Documents\GitHub\RepositoryTeam95\RepositoryTeam95\Aplikacija\Autoskola\obj\Debug\Autoskola.csproj.GenerateResource.Cache
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._04frmOsobe.resources
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._00frmWelcomAdmin.resources
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._10frmPodaciOVoznji.resources
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._11frmIzdavanjePotvrde.resources
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._12frmPodaciOPol.resources
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._13frmUnosKat.resources
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._14frmIspiti.resources
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._01frmWelcomeInstruktor.resources
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._02frmUnosNovihPZ.resources
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._05frmUrediPZ.resources
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._06frmKatalogVozila.resources
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._07frmDodajNovoVozilo.resources
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._09frmEvidencijaPol.resources
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._0frmGlavnaForma.resources
+C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._04frmOsobe.resources
+C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._00frmWelcomAdmin.resources
+C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._10frmPodaciOVoznji.resources
+C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._11frmIzdavanjePotvrde.resources
+C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._12frmPodaciOPol.resources
+C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._13frmUnosKat.resources
+C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._14frmIspiti.resources
+C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._01frmWelcomeInstruktor.resources
+C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._02frmUnosNovihPZ.resources
+C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._05frmUrediPZ.resources
+C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._06frmKatalogVozila.resources
+C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._07frmDodajNovoVozilo.resources
+C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._09frmEvidencijaPol.resources
+C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola._0frmGlavnaForma.resources
+E:\Nana's docs\3. 2014-2015\Autoskola - 4.2\bin\Debug\Autoskola.exe.config
+E:\Nana's docs\3. 2014-2015\Autoskola - 4.2\obj\Debug\Autoskola.exe
+E:\Nana's docs\3. 2014-2015\Autoskola - 4.2\obj\Debug\Autoskola.pdb
+E:\Nana's docs\3. 2014-2015\Autoskola - 4.2\bin\Debug\Autoskola.exe
+E:\Nana's docs\3. 2014-2015\Autoskola - 4.2\bin\Debug\Autoskola.pdb
+E:\Nana's docs\3. 2014-2015\Autoskola - 4.2\bin\Debug\System.Data.SQLite.xml
+E:\Nana's docs\3. 2014-2015\Autoskola - 4.2\obj\Debug\Autoskola.csprojResolveAssemblyReference.cache
+E:\Nana's docs\3. 2014-2015\Autoskola - 4.2\obj\Debug\Autoskola._04frmOsobe.resources
+E:\Nana's docs\3. 2014-2015\Autoskola - 4.2\obj\Debug\Autoskola._00frmWelcomAdmin.resources
+E:\Nana's docs\3. 2014-2015\Autoskola - 4.2\obj\Debug\Autoskola._10frmPodaciOVoznji.resources
+E:\Nana's docs\3. 2014-2015\Autoskola - 4.2\obj\Debug\Autoskola._11frmIzdavanjePotvrde.resources
+E:\Nana's docs\3. 2014-2015\Autoskola - 4.2\obj\Debug\Autoskola._12frmPodaciOPol.resources
+E:\Nana's docs\3. 2014-2015\Autoskola - 4.2\obj\Debug\Autoskola._13frmUnosKat.resources
+E:\Nana's docs\3. 2014-2015\Autoskola - 4.2\obj\Debug\Autoskola._14frmIspiti.resources
+E:\Nana's docs\3. 2014-2015\Autoskola - 4.2\obj\Debug\Autoskola._01frmWelcomeInstruktor.resources
+E:\Nana's docs\3. 2014-2015\Autoskola - 4.2\obj\Debug\Autoskola._02frmUnosNovihPZ.resources
+E:\Nana's docs\3. 2014-2015\Autoskola - 4.2\obj\Debug\Autoskola._05frmUrediPZ.resources
+E:\Nana's docs\3. 2014-2015\Autoskola - 4.2\obj\Debug\Autoskola._06frmKatalogVozila.resources
+E:\Nana's docs\3. 2014-2015\Autoskola - 4.2\obj\Debug\Autoskola._07frmDodajNovoVozilo.resources
+E:\Nana's docs\3. 2014-2015\Autoskola - 4.2\obj\Debug\Autoskola._09frmEvidencijaPol.resources
+E:\Nana's docs\3. 2014-2015\Autoskola - 4.2\obj\Debug\Autoskola._0frmGlavnaForma.resources
+E:\Nana's docs\3. 2014-2015\Autoskola - 4.2\obj\Debug\Autoskola.Properties.Resources.resources
+E:\Nana's docs\3. 2014-2015\Autoskola - 4.2\obj\Debug\Autoskola.csproj.GenerateResource.Cache

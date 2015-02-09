@@ -8,6 +8,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.Office.Interop.Word;
+using System.IO;
+
+
+
 
 namespace Autoskola
 {
@@ -46,13 +51,13 @@ namespace Autoskola
             ugovor.OIBP = txtOIB.Text;
             ugovor.Instruktor = cbInstruktor.Text;
             ugovor.kategorijaID = cbKategorijaID.Text;
-            ugovor.stavke = "STAVKE DOPUNI: BANANAAAAAAAA!!!";
+            
 
             if (osoba.PohraniUnos() != 0 )
             {
                 if (role.roleID == 1 || role.roleID==2)
                 {
-                    role.PohraniUnos(); //to je zbog tog što izvrsiUpit vraća int redova koje je unio
+                    role.PohraniUnos(); 
                     
                         txtIme.Text = "";
                         txtPrezime.Text = "";
@@ -70,6 +75,9 @@ namespace Autoskola
                     {
                         role.PohraniUnosPolaznika();
 
+
+                        Ugovor.OtvoriWordUgovor(osoba.ime, osoba.prezime, osoba.adresa, osoba.OIB, ugovor.kategorijaID); 
+
                         txtIme.Text = "";
                         txtPrezime.Text = "";
                         txtAdresa.Text = "";
@@ -77,6 +85,8 @@ namespace Autoskola
                         txtTel.Text = "";
 
                         MessageBox.Show("Uspješno dodan polaznik " + osoba.ime + " " + osoba.prezime + " i generiran je ugovor za tog polaznika.");
+
+                        
                     }
                 }
                 else  { }
@@ -94,9 +104,14 @@ namespace Autoskola
         //Za gašenje aplikacije ako se klikne baš X gumbić na prozoru
         private void _2aForma_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Application.Exit();
+            //Duži oblik zbog Microsoft usinga.
+            System.Windows.Forms.Application.Exit();
         }
 
+
+        /// <summary>
+        /// Metoda za upisati kategorije u comboBox
+        /// </summary>
         public void upisiKategorijeUCombo()
         {
             string upit = "SELECT * FROM kategorija;";
@@ -108,6 +123,9 @@ namespace Autoskola
             }
         }
 
+        /// <summary>
+        /// Metoda za upisati sve role u comboBox
+        /// </summary>
         public void upisiRoleUCombo()
         {
             string upit = "SELECT * FROM kreiranjeRola;";
@@ -120,6 +138,10 @@ namespace Autoskola
             }
         }
 
+
+        /// <summary>
+        /// Metoda za upisati u comboBox sve instruktore
+        /// </summary>
         public void upisiInstruktoraUCombo() 
         {
             string upit = "SELECT * FROM role WHERE roleID == 2;";
@@ -141,5 +163,13 @@ namespace Autoskola
                 cbInstruktor.Items.Add(zajedno);
             }
         }
+
+        
+
+        
+
+        
+        
+        
     }
 }

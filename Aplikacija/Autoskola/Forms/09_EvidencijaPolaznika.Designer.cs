@@ -127,7 +127,7 @@
             this.dgwEvidencijaPol.Name = "dgwEvidencijaPol";
             this.dgwEvidencijaPol.ReadOnly = true;
             this.dgwEvidencijaPol.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgwEvidencijaPol.Size = new System.Drawing.Size(372, 295);
+            this.dgwEvidencijaPol.Size = new System.Drawing.Size(358, 295);
             this.dgwEvidencijaPol.TabIndex = 15;
             // 
             // OIB
