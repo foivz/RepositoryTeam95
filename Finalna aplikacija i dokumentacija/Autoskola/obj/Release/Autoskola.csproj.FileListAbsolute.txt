@@ -1,0 +1,17 @@
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\bin\Release\Autoskola.exe.config
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Release\Autoskola._04_Osoba.resources
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Release\Autoskola._0taForma.resources
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Release\Autoskola._10aForma.resources
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Release\Autoskola._11aForma.resources
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Release\Autoskola._12aForma.resources
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Release\Autoskola._13aForma.resources
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Release\Autoskola._14_Ispiti.resources
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Release\Autoskola._1aForma.resources
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Release\Autoskola._2aForma.resources
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Release\Autoskola._5aForma.resources
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Release\Autoskola._6aForma.resources
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Release\Autoskola._7aForma.resources
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Release\Autoskola._9aForma.resources
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Release\Autoskola.GlavnaForma.resources
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Release\Autoskola.Properties.Resources.resources
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Release\Autoskola.csproj.GenerateResource.Cache
