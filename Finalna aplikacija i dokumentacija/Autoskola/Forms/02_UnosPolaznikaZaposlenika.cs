@@ -51,14 +51,24 @@ namespace Autoskola
             ugovor.OIBP = txtOIB.Text;
             ugovor.Instruktor = cbInstruktor.Text;
             ugovor.kategorijaID = cbKategorijaID.Text;
-            
 
-            if (osoba.PohraniUnos() != 0 )
+            if (osoba.OIB == "" || osoba.ime == "" || osoba.prezime == "" || osoba.adresa == "" || role.roleID.ToString() == "")
             {
-                if (role.roleID == 1 || role.roleID==2)
+                MessageBox.Show("Nisu uneseni svi obavezni podaci!");
+            }
+            else
+            {
+                if (osoba.OIB.Length != 11)
                 {
-                    role.PohraniUnos(); 
-                    
+                    MessageBox.Show("OIB mora sadržavati točno 11 znakova!");
+                }
+
+                if (osoba.OIB.Length == 11 && osoba.PohraniUnos() != 0)
+                {
+                    if (role.roleID == 1 || role.roleID == 2)
+                    {
+                        role.PohraniUnos();
+
                         txtIme.Text = "";
                         txtPrezime.Text = "";
                         txtAdresa.Text = "";
@@ -67,29 +77,30 @@ namespace Autoskola
                         txtOIB.Text = "";
                         txtTel.Text = "";
 
-                        MessageBox.Show("Uspješno dodan zaposlenik " + osoba.ime + " " + osoba.prezime + ".");                
-                }
-                else if (ugovor.UnesiUgovor() != 0)
-                {
-                    if (role.roleID == 3)
-                    {
-                        role.PohraniUnosPolaznika();
-
-
-                        Ugovor.OtvoriWordUgovor(osoba.ime, osoba.prezime, osoba.adresa, osoba.OIB, ugovor.kategorijaID); 
-
-                        txtIme.Text = "";
-                        txtPrezime.Text = "";
-                        txtAdresa.Text = "";
-                        txtOIB.Text = "";
-                        txtTel.Text = "";
-
-                        MessageBox.Show("Uspješno dodan polaznik " + osoba.ime + " " + osoba.prezime + " i generiran je ugovor za tog polaznika.");
-
-                        
+                        MessageBox.Show("Uspješno dodan zaposlenik " + osoba.ime + " " + osoba.prezime + ".");
                     }
+                    else if (osoba.OIB.Length == 11 && ugovor.UnesiUgovor() != 0)
+                    {
+                        if (role.roleID == 3)
+                        {
+                            role.PohraniUnosPolaznika();
+
+
+                            Ugovor.OtvoriWordUgovor(osoba.ime, osoba.prezime, osoba.adresa, osoba.OIB, ugovor.kategorijaID);
+
+                            txtIme.Text = "";
+                            txtPrezime.Text = "";
+                            txtAdresa.Text = "";
+                            txtOIB.Text = "";
+                            txtTel.Text = "";
+
+                            MessageBox.Show("Uspješno dodan polaznik " + osoba.ime + " " + osoba.prezime + " i generiran je ugovor za tog polaznika.");
+
+
+                        }
+                    }
+                    else { }
                 }
-                else  { }
             }
         }
 

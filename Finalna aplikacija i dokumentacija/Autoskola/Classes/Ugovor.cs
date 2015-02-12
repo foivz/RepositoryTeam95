@@ -89,7 +89,7 @@ namespace Autoskola
                 dokument.SaveAs2(ref refDat, ref missing, ref missing, ref missing, ref missing, ref missing, ref missing, ref missing, ref missing, ref missing, ref missing, ref missing, ref missing, ref missing, ref missing, ref missing, ref missing);
             
 
-            MessageBox.Show("Uspješno pohranjen dokument.");
+           // MessageBox.Show("Uspješno pohranjen dokument.");
 
 
 

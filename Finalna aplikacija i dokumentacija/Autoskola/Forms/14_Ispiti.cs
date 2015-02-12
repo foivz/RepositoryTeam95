@@ -33,6 +33,7 @@ namespace Autoskola
             Ispiti ispiti = new Ispiti();
             
             string OIBP = _04frmOsobe.oib;
+            int roleID = _04frmOsobe.roleID;
 
             ispiti.datum = dtpDatum.Value;
 
@@ -71,11 +72,19 @@ namespace Autoskola
 
             
             ispiti.napomena = txtNapomena.Text;
+            
+            //Pohrana
+            if (roleID == 3)
+            {
+                ispiti.PohraniPolaganjeIspita(OIBP);
+                MessageBox.Show("Uspješno dodana evidencija ispita.");
+            }
+            else 
+            {
+                MessageBox.Show("Ispit se pohranjuje isključivo za polaznika!");
+            }
 
-            ispiti.PohraniPolaganjeIspita(OIBP);
-            
-            MessageBox.Show("Uspješno dodana evidencija ispita.");
-            
+
 
         }
 

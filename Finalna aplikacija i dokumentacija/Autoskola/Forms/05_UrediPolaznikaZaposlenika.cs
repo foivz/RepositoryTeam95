@@ -42,17 +42,20 @@ namespace Autoskola
             string novaKategorija = cbKategorijaID.Items[cbKategorijaID.SelectedIndex].ToString();
 
             string OIB = _04frmOsobe.oib; 
+            int roleID = _04frmOsobe.roleID;
 
             Osoba osoba = new Osoba();
             osoba.ime = txtIme.Text;
             osoba.prezime = txtPrezime.Text;
             osoba.adresa = txtAdresa.Text;
             osoba.brTel = txtTel.Text;
+            
             osoba.AzurirajUnos(OIB);
 
             Role rola = new Role();
             rola.kIme = txtKIme.Text;
             rola.lozinka = txtLozinka.Text;
+            
             rola.PohraniAzuriranjeRole(OIB);
 
             Ugovor ugovor = new Ugovor();
@@ -60,17 +63,23 @@ namespace Autoskola
             ugovor.Instruktor = instruktor;
             ugovor.kategorijaID = novaKategorija;
 
-            if (novaKategorija == staraKategorija)
+            if (novaKategorija == staraKategorija && roleID == 3)
             {
                 ugovor.AzurirajUgovor(OIB);
                 MessageBox.Show("Ažuriranje uspješno!");
+                
             }
-            else
-            { 
+            else if (roleID == 3)
+            {
                 ugovor.UnesiUgovor();
                 Ugovor.OtvoriWordUgovor(osoba.ime, osoba.prezime, osoba.adresa, OIB, ugovor.kategorijaID);
                 MessageBox.Show("Kreiran novi ugovor");
             }
+            else 
+            {
+                MessageBox.Show("Ažuriranje uspješno!"); 
+            }
+            
 
             
                             

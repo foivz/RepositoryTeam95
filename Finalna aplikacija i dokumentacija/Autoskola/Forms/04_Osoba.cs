@@ -31,6 +31,7 @@ namespace Autoskola
         }
         
         public static string oib;
+        public static int roleID;
        
         //Gumb za ažuriranje podataka o osobi (popunjavanje sljedeće forme podacima iz tablica)
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -57,6 +58,7 @@ namespace Autoskola
             forma.cbRoleID.SelectedIndex = int.Parse(drRole[3].ToString()) - 1;
             forma.txtKIme.Text = drRole[0].ToString();
             forma.txtLozinka.Text = drRole[1].ToString();
+            roleID = int.Parse(drRole[3].ToString());
 
             string upit = "SELECT * FROM kategorija;";
             DbDataReader dr = DB.Instance.DohvatiDataReader(upit);
@@ -78,8 +80,6 @@ namespace Autoskola
                 staraKategorija = dr1[4].ToString();
                 instruktor = dr1[3].ToString();
             }
-
-            
 
             forma.staraKategorija = staraKategorija;
             forma.instruktor = instruktor;

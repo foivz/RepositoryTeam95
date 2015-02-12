@@ -107,3 +107,11 @@ E:\FAKS zadnjih par ispita\PI\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola.Proper
 E:\FAKS zadnjih par ispita\PI\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola.csproj.GenerateResource.Cache
 E:\FAKS zadnjih par ispita\PI\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola.exe.manifest
 E:\FAKS zadnjih par ispita\PI\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola.application
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\bin\Debug\Autoskola.exe.manifest
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\bin\Debug\Autoskola.application
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola.exe.manifest
+C:\Users\Nanita\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola.application
+C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\bin\Debug\Autoskola.exe.manifest
+C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\bin\Debug\Autoskola.application
+C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola.exe.manifest
+C:\Users\Josipa\Dropbox\AUTOŠKOLA PI\Autoskola\obj\Debug\Autoskola.application
